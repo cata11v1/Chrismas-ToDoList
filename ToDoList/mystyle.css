@@ -1,0 +1,104 @@
+body {
+    background-image:url(imagine-craciun2.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.title {
+    width: 100vw;
+    height: 15vh;
+    text-align: center;
+    color:brown;
+    background-color:   transparent;
+    padding-top: 2%;
+    margin: auto;
+}
+.play{
+    width: 100%;
+    text-align: left;
+    background-color: transparent;
+    font-size: x-large;
+}
+
+.taskspace {
+    width: 60%;
+    
+    text-align: center;
+    background-color: transparent;
+    margin:auto;
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;  
+}
+.addtxt {
+    width: 60%;
+    height: 5%;
+    background-color: transparent;
+    text-align: center;
+    margin: auto;
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
+}
+.downbar{
+    width: 60%;
+    height: 5%;
+    background-color: transparent;
+    text-align: center;
+    margin: auto;
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
+    position: -webkit-sticky;
+    position:sticky;
+    top:0;
+}
+.task {
+    width: 60%;
+    height: 5%;
+    background-color:transparent;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    font-size: 30px;
+    color:red;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.task:hover{
+    background: rgba(0,0,0,0.5);
+}
+.hover {
+    background-color:  transparent;
+    border: none;
+    color: green;
+    padding: 7px 10px;
+    text-align: center;
+    
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .hover:hover{
+    background-color: yellowgreen;
+  }
+  .music{
+    background-color:  transparent;
+    border: none;
+    color: red;
+    padding: 7px 10px;
+    text-align: center;
+    
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .music:hover{
+    color: blueviolet;
+  }

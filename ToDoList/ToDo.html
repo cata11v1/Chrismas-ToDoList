@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel = "stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Vrabiuta Catalin-Constantin TODO List</title>
+</head>
+<body>
+    <div class="play">
+        <button class="music"onclick="myplay()"><i class="fa fa-play-circle" aria-hidden="true"></i></button>
+        <button class="music"onclick="mypause()"><i class="fa fa-pause-circle-o" aria-hidden="true"></i></button>
+        <button class="music"onclick="myreload()"><i class="fa fa-undo" aria-hidden="true"></i></button>
+    </div>
+    <div class = "title">
+        <h1 id = "header_1"> Christmas ToDoList </h1>
+    </div>
+    
+    <div class ="taskspace">
+        <!-- <input type="text" id="myText" value="Write a task"> -->
+        <input type="text" id="myText" onfocus="this.value=''" value="Write a task">
+    </div>
+    <div class = "addtxt">
+        <!--<button id = "btn"> Add task </button>-->
+        <button class="hover"onclick="myFunction()">Add task<i class="fa fa-plus-square" aria-hidden="true"></i></button>
+        <button class="hover"id = "completeall" onclick="myFunction2()">Complete all tasks</button>
+        <button class="hover" onclick="myFunction1()">Delete all tasks<i class="fa fa-trash"></i></button>
+    </div>
+
+
+    <script src = "myscript.js"></script>
+     <div class = "downbar"> 
+         <button class="hover" id="alltaskb"onclick="myFunction5()">All task</button> 
+         <button  class="hover" id= "completetaskb"onclick="myFunction3()">Completed tasks</button> 
+         <button class="hover"id="activetaskb"onclick="myFunction4()">Uncompleted tasks</button> 
+     </div> 
+</body>
+
+</html>
